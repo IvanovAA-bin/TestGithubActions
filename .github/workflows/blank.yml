@@ -110,12 +110,12 @@ jobs:
 
       - name: See build
         shell: bash
-        working-directory: build
+        working-directory: /home/runner/work/TestGithubActions/TestGithubActions
         run: ls
         
       - name: Run application
         shell: bash
-        working-directory: build
+        working-directory: /home/runner/work/TestGithubActions/TestGithubActions/build
         run: ./main
 
       - name: Install Strip
