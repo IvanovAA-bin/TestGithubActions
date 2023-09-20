@@ -115,7 +115,7 @@ jobs:
 
       - name: Run application 2
         shell: bash
-        run: home/runner/work/TestGithubActions/TestGithubActions/main
+        run: home/runner/work/TestGithubActions/TestGithubActions/build/main
 
       - name: Install Strip
         shell: bash
