@@ -110,7 +110,7 @@ jobs:
 
       - name: See build
         shell: bash
-        working-directory: /home/runner/work/TestGithubActions/TestGithubActions
+        working-directory: /home/runner/work/TestGithubActions/TestGithubActions/build
         run: ls
 
       - name: Run application 2
