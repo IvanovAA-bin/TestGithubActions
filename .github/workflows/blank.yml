@@ -109,9 +109,9 @@ jobs:
         run: cmake --build . --config ${{ matrix.config.build_type }}
 
       - name: See build
-      shell: bash
-      working-directory: build
-      run: ls
+        shell: bash
+        working-directory: build
+        run: ls
         
       - name: Run application
         shell: bash
