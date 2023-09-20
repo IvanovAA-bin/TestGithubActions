@@ -6,6 +6,8 @@ int intro_sum(int a, int b){
 }
 
 int main(void){
+    printf("Hello worls");
     assert(intro_sum(1,2) == 3);
     assert(intro_sum(100, 200) == 100);
+    return 0;
 }
