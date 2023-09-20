@@ -103,8 +103,6 @@ jobs:
             -DCMAKE_BUILD_TYPE=${{ matrix.config.build_type }} \
             -G "${{ matrix.config.generators }}" \
             -DCMAKE_INSTALL_PREFIX:PATH=instdir
-          cd build
-          ls
             
       - name: Build
         shell: bash
@@ -112,7 +110,7 @@ jobs:
 
       - name: See build
         shell: bash
-        working-directory: /home/runner/work/TestGithubActions/TestGithubActions/build
+        working-directory: /home/runner/work/TestGithubActions/TestGithubActions
         run: ls
 
       - name: Install Strip
