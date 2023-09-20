@@ -104,7 +104,7 @@ jobs:
             -G "${{ matrix.config.generators }}" \
             -DCMAKE_INSTALL_PREFIX:PATH=instdir
           cd build
-          ./main
+          ls
             
       - name: Build
         shell: bash
