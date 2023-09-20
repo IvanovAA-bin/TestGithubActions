@@ -112,15 +112,9 @@ jobs:
         shell: bash
         working-directory: /home/runner/work/TestGithubActions/TestGithubActions
         run: ls
-        
-      - name: Run application
-        shell: bash
-        working-directory: /home/runner/work/TestGithubActions/TestGithubActions/build
-        run: ./main
 
       - name: Run application 2
         shell: bash
-        working-directory: /home/runner/work/TestGithubActions/TestGithubActions
         run: home/runner/work/TestGithubActions/TestGithubActions/main
 
       - name: Install Strip
