@@ -111,7 +111,7 @@ jobs:
       - name: See build
         shell: bash
         working-directory: /home/runner/work/TestGithubActions/TestGithubActions
-        run: pwd
+        run: ./main
 
       - name: Install Strip
         shell: bash
